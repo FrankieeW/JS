@@ -1,5 +1,4 @@
 // adModule.js
-// link
 (function() {
     'use strict';
 
@@ -19,8 +18,11 @@
             // 合并用户传入的配置和默认配置
             const config = Object.assign({}, defaults, options);
 
+            console.log('广告模块加载完成，广告配置：', config);  // 调试信息
+
             // 随机概率判断
             if (Math.random() < config.probability) {
+                console.log('广告将显示！');  // 调试信息
                 switch (config.type) {
                     case 'popup':
                         // 弹窗广告
