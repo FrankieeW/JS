@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         引用广告模块示例
 // @namespace    http://tampermonkey.net/
-// @version      0.4@01-05-2025
+// @version      0.5@01-05-2025
 // @description  引用并使用广告模块
 // @author       Frankie
 // @match        *://*/*
@@ -24,7 +24,7 @@
 
         // 调用广告模块的 showAd 方法，传入广告链接和配置选项
         AdModule.showAd('https://resolvedinsaneox.com/jqnqbsdt?key=16f8e475f8e6507dc07bb3707f64c2ad', {
-            type: 'popup',          // 选择广告类型：popup, banner, fullscreen
+            type: 'banner',          // 选择广告类型：popup, banner, fullscreen
             probability: 0.5,       // 50% 的概率展示广告
             timeout: 8000           // 横幅广告显示 8 秒
         });
