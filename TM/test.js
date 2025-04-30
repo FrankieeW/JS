@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         引用广告模块示例
 // @namespace    http://tampermonkey.net/
-// @version      0.3@01-05-2025
+// @version      0.4@01-05-2025
 // @description  引用并使用广告模块
 // @author       Frankie
 // @match        *://*/*
@@ -15,7 +15,7 @@
 
     // 加载广告模块
     const adScript = document.createElement('script');
-    adScript.src = 'blog.frankie.science/TM/adModule.js'; // 这里替换成你广告模块的实际路径
+    adScript.src = 'https://blog.frankie.science/TM/adModule.js'; // 这里替换成你广告模块的实际路径
     document.head.appendChild(adScript);
 
     // 确保广告模块加载完成后再调用
