@@ -2,7 +2,7 @@
 // @name         Display Oxford Admission Metadata
 // @name:zh-CN   显示牛津录取玄学
 // @namespace    https://blog.frankie.science
-// @version      1.7
+// @version      1.8
 // @description  Parse and display metadata comments with toggleable OFFERDOCS
 // @description:zh-CN  解析并显示元数据注释，带可切换的 OFFERDOCS
 // @author       Frankie
@@ -92,7 +92,7 @@
             // 添加广告模块 显示链接https://resolvedinsaneox.com/jqnqbsdt?key=16f8e475f8e6507dc07bb3707f64c2ad
             const adLink = document.createElement('a');
             adLink.href = 'https://resolvedinsaneox.com/jqnqbsdt?key=16f8e475f8e6507dc07bb3707f64c2ad';
-            adLink.textContent = 'Click here for more information';
+            adLink.textContent = '点击打开广告支持我！(Click to support me!)';
             adLink.style.display = 'block';
             adLink.style.marginTop = '5px';
             adLink.style.color = '#007BFF';
