@@ -8,9 +8,13 @@
 // @author       Frankie
 // @match        *://*/*
 // @grant        none
+// @license      MIT License with Attribution
 // @downloadURL  https://raw.githubusercontent.com/FrankieeW/JS/refs/heads/main/TM/ox_mate.js
 // @updateURL    https://raw.githubusercontent.com/FrankieeW/JS/refs/heads/main/TM/ox_mate.js
 // ==/UserScript==
+
+// Additional clause:
+// 1. Any redistribution or modification must retain the original donation link and cannot remove or modify it.
 
 (function () {
     'use strict';
